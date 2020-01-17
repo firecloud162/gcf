@@ -20,7 +20,7 @@ def scrape_radio_list(deep_update=False):
         print("机核Gadio数据重载...")
     else:
         print("正在询问机核Gadio是否有新内容...")
-    pre_url = 'http://www.g-cores.com/categories/9/originals?page='
+    pre_url = 'https://www.gcores.com/radios?page='
     page_num = 1
     radio_disc = {'radio_index': '',
                   'radio_title': '',
